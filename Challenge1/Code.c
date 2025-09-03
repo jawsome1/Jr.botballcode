@@ -40,7 +40,7 @@ while(analog(0)<=3050) //robot is reading that while the rangefinder is less the
 
 PAUSE1 // robot pauses for 1 second
 
-while(analog(0)>=1670) //robot is reading that while the rangefinder is greater then or equal to 1670 set action will hapen
+while(analog(0)>=500) //robot is reading that while the rangefinder is greater then or equal to 1670 set action will hapen
 {
   M(LM,-100); //action is defined as motor(3,-100) aka left motor is going backwards
   M(RM,-100); //action is defined as motor(3,-100) aka right motor is going backwards
